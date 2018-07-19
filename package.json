@@ -3,7 +3,8 @@
     "bulma": "^0.7.1",
     "regenerator-runtime": "^0.12.0",
     "vue": "^2.5.16",
-    "vue-hot-reload-api": "^2.3.0"
+    "vue-hot-reload-api": "^2.3.0",
+    "hoek": "^5.0.3"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^2.1.0",
