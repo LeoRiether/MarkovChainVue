@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "bulma": "^0.7.1",
+    "regenerator-runtime": "^0.12.0",
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.1.0",
+    "cssnano": "^4.0.3",
+    "node-sass": "^4.9.2",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
