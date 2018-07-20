@@ -42,8 +42,10 @@ export default {
     generate() {
       Promise.resolve()
       .then(_ => {
-        if (this.sampleChanged)
+        if (this.sampleChanged) {
+          this.sampleChanged = false; 
           return Markov.load(this.sample || `url ${donquixote}`);
+        }
       })
       .then(_ => Markov.generate(~~this.outsize))
       .then(o => this.output = o)
